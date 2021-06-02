@@ -15,9 +15,10 @@ copyright.innerHTML = `Tsion ${thisyear}`;
 footer.appendChild(copyright)
 
 const skills =[
-    'cleaning',
-    'beaking',
-    'cooking'
+    'basic computer skills',
+    'basic software,word docament ,and Exel skills',
+    'case mangement & creating and docmenting case note',
+    'certification with typing skill'
 ]
 
 const skillsSection= document.getElementById('skills')
