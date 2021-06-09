@@ -61,7 +61,7 @@ if (e.target.tagName==="BUTTON") {
         if(messageList.children.length===0){
             messageSection.querySelector('h2').style.display='none'
         }
-        // stretch goal 2 edit button
+        // stretch goal 2 edit button edit 
     } else if (e.target.innerHTML==="edit"){
       const li = e.target.parentNode
       const span = li.firstElementChild.nextElementSibling
