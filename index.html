@@ -2,49 +2,69 @@
 <html>
   <head>
     <title>MY Portfoli</title>
-    <meta name="description" content="My Portfoli">
+    <meta name="description" content="My Portfoli" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap"
+      rel="stylesheet"
+    />  
   </head>
-  <body>
-    <h1 >Tsion Gebregziabher</h1>
+  <body class="body">
+    
+    <h1>Tsion Gebregziabher </h1>
     <section>
-    <h1>About</h1>
-    <ul>
-        <li>work experiance </li>
-        <li>skills</li>
-        <li>certification</li>
-    </ul>>
-  </section>
-  <section>
-  <h1>Experience</h1>
-  <p> Over Ten years experianced as social worker and Restelment & placement, mentoring case manger  for four years </p>
-  </section>
-  <section id="skills">
-    <h2>skills</h2>
-  <ul></ul>
-</section>
-  <section>
-    <h1>Connect</h1>
-    <p><a href="mailto: berhetsion@yahoo.com">berhetsion@yahoo,com</a></p>
-  </section>
-  <section>
-    <h2>Leave a Message</h2>
-    <form name="leave_message">
-      <label for="name">Name</label><br>
-      <input type="text" name="name" required><br>
-      <label for="email">Email Address</label><br>
-      <input type="email" name="email" required><br>
-      <label for="message">Message</label><br>
-      <textarea name="message" required></textarea><br>
-      <button type="submit">Submit</button>
-    </form>
-  </section>
-   <section id="messages">
-     <h2>Messages</h2>
-     <ul>
-     </ul>
+      <h1>About</h1>
+      <p>
+      My name is Tsion,am working as social worker for 10 years with different divirsity of peoples and i speake more than four language and am intersting with new technology which relate with computer and joining @ctd programing class.
+      </p>
     </section>
-  <footer></footer>
-  <script src="js/index.js">
-  </script>
+    <section>
+      <h1>Experience</h1>
+      <ul class="Experience">
+        <li>Case mangement </li>
+        <li>Recuding Mentors </li>
+        <li>Organized workshop </li>
+      </ul>
+    </section>
+    <section id="skills">
+      <h2>skills</h2>
+      <ul></ul>
+    </section>
+    <section>
+      <h1>Connect</h1>
+      <ul class="connect-list">
+        <li>
+          <a href="https://github.com/berhetsion1">
+            <img class="img-size" src="image/github.logo.jpg" alt="github"
+          /></a>
+        </li>
+      </ul>
+    </section>
+    <section>
+      <h2>Leave a Message</h2>
+      <form name="leave_message">
+        <div class="field">
+          <label for="name" class="label-form">Name</label><br />
+          <input type="text" name="name" class="input-form" required />
+        </div>
+        <div class="field">
+          <label for="email" class="label-form">Email Address</label><br />
+          <input type="email" name="email" class="input-form" required />
+        </div>
+        <br />
+        <label for="message" class="label-form">Message</label><br />
+        <textarea name="message" class="textarea" required></textarea><br />
+        <button type="submit" class="btn">Submit</button>
+      </form>
+    </section>
+    <section id="messages">
+      <h2>Messages</h2>
+      <ul class="Messages"></ul>
+    </section>
+    <footer class="footer"></footer>
+    <script src="js/index.js"></script>
   </body>
 </html>
