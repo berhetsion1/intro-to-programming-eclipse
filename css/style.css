@@ -72,12 +72,19 @@ h2 {
   flex-direction: row;
   list-style-type: none;
   padding-left: 0;
+  font-size: xx-large;
+  width: fit-content;
+
+  
 }
 #skills li {
   margin: 5px;
   padding: 5px;
-  background-color: cornsilk;
+  background-color:cornsilk;
   width: fit-content;
+  font-size: xx-large;
+
+  
 }
 .connect-list li {
   display: inline;
