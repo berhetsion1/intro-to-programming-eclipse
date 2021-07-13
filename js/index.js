@@ -5,12 +5,11 @@ const copyright= document.createElement('p')
 console .log (copyright)
 copyright.innerHTML= `Tsion &copy; ${thisyear}`;
 footer.appendChild(copyright)
-const skills= [
-    'basic computer skills',
+const skills=  
+['basic computer skills',
     'basic software,word docament ,and Exel skills',
     'case mangement & creating and docmenting case note',
-    'certification with typing skill'
-]
+    'certification with typing skill']
 const skillsSection=document.getElementById("skills")
 const skillsList=skillsSection.querySelector('ul')
 console.log(skills)
@@ -82,3 +81,22 @@ if (e.target.tagName==="BUTTON") {
       }
 }
 })
+
+const githubRequest = new XMLHttpRequest();
+githubRequest.open("GET", "https://api.github.com/users/berhetsion1/repos");
+githubRequest.send();
+githubRequest.onload = function() {
+    let repositories = JSON.parse(this.response);
+    console.log ("before parse",this.response)
+    console.log ("response",repositories)
+   let projectSection= document.getElementById("projects");
+   let projectList = projectSection.querySelector('ul')
+    for( let i =0; i< repositories.length;i++){
+        let project=document.createElement('li');
+        project.innerText= repositories[i].name;
+        // console.log ("my repo",repositories[i])
+        projectList.appendChild(project)
+    }
+}
+
+ 

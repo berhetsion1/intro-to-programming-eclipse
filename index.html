@@ -1,70 +1,111 @@
-<!DOCTYPE html>
 <html>
   <head>
     <title>MY Portfoli</title>
     <meta name="description" content="My Portfoli" />
     <link rel="stylesheet" href="css/style.css" />
-    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/index.css" />
     <link rel="preconnect" href="https://fonts.gstatic.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com">
     <link
       href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap"
       rel="stylesheet"
-    />  
+    />
   </head>
-  <body class="body">
-    
-    <h1>Tsion Gebregziabher </h1>
+  <body>
     <section>
+      <!-- lesson-4.5 -->
+      <header>
+        <ul class="menu-nav">
+          <li class="links"><a href="#home">Home</a></li>
+          <li class="links"><a href="#about">About</a></li>
+          <li class="links"><a href="#experience">Experience</a></li>
+          <li class="links"><a href="#skills">Skills</a></li>
+          <li class="links"><a href="#connect">Connect</a></li>
+        </ul>
+      </header>
+    </section>
+    <div class="myname">
+      <img src="./css/img/img.JPG"   width="200"  height="200" class="mypic" />
+      <h2>Tsion Gebregziabher</h2>
+    </div>
+    <section id="about">
       <h1>About</h1>
       <p>
-      My name is Tsion,am working as social worker for 10 years with different divirsity of peoples and i speake more than four language and am intersting with new technology which relate with computer and joining @ctd programing class.
+       Hello my name is Tsion Gebregziabher I work for long time as social worker . I love working with different group of people .
+        My job require speaks different langues . I speak four languge that helped me to communicate 
+        with many different community from different  country . I am currently code the dream studdent .
+         My dream is to be come software programer my next step is to take react calss.
       </p>
     </section>
-    <section>
+    <section id="experience">
       <h1>Experience</h1>
       <ul class="Experience">
-        <li>Case mangement </li>
-        <li>Recuding Mentors </li>
-        <li>Organized workshop </li>
+        <li>
+          <div>Case mangement for Refugee  </div>
+          <div> From  2010- present</div>
+        </li>
+        <li>
+          <div>
+            	Maintain a file documenting each 
+            mentor-mentee contact, including, at minimum, date, length and nature of contact. 
+          </div>
+          <div> 2005 - 2010</div>
+        </li>  
       </ul>
     </section>
+    <div>
+    </div>
     <section id="skills">
       <h2>skills</h2>
-      <ul></ul>
+      <ul class="skills"></ul>
     </section>
-    <section>
-      <h1>Connect</h1>
-      <ul class="connect-list">
-        <li>
-          <a href="https://github.com/berhetsion1">
-            <img class="img-size" src="image/github.logo.jpg" alt="github"
-          /></a>
-        </li>
+    <section id="projects">
+      <h2>projects</h2>
+      <ul>
+      
       </ul>
+
     </section>
+
     <section>
       <h2>Leave a Message</h2>
-      <form name="leave_message">
-        <div class="field">
-          <label for="name" class="label-form">Name</label><br />
-          <input type="text" name="name" class="input-form" required />
-        </div>
-        <div class="field">
-          <label for="email" class="label-form">Email Address</label><br />
-          <input type="email" name="email" class="input-form" required />
-        </div>
-        <br />
-        <label for="message" class="label-form">Message</label><br />
-        <textarea name="message" class="textarea" required></textarea><br />
-        <button type="submit" class="btn">Submit</button>
-      </form>
+      <div class="leave_message">
+        <form name="leave_message">
+          <div class="field">
+            <label for="name" class="label-form">Name</label><br />
+            <input type="text" name="name" class="input-form" required />
+          </div>
+          <div class="field">
+            <label for="email" class="label-form">Email Address</label><br />
+            <input type="email" name="email" class="input-form" required />
+          </div>
+          <br />
+          <label for="message" class="label-form">Message</label><br />
+          <textarea name="message" class="textarea" required></textarea><br />
+          <button type="submit" class="btn">Submit</button>
+        </form>
+      </div>
     </section>
     <section id="messages">
       <h2>Messages</h2>
       <ul class="Messages"></ul>
     </section>
-    <footer class="footer"></footer>
+    <footer class="footer">
+      <section class="connect-section">
+        <section id="connect">
+        <!-- <h1>Connect</h1> -->
+        <ul class="connect-list">
+        </section>
+          <li>
+            
+            <a href="mailto:berhetsion@yahoo.com">berhetsion@yahoo.com</a>
+              
+          </li>
+          <li>
+            <a href="https://github.com/berhetsion"></a>
+          </li>
+        </ul>
+      </section>
+    </footer>
     <script src="js/index.js"></script>
   </body>
 </html>
