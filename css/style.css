@@ -18,7 +18,7 @@ body {
   list-style-type: none;
   justify-content: flex-end;
 }
-h1 {
+h2 {
   color: darkviolet;
   font-size: 3rem;
   font-weight: normal;
@@ -74,8 +74,6 @@ h2 {
   padding-left: 0;
   font-size: xx-large;
   width: fit-content;
-
-  
 }
 #skills li {
   margin: 5px;
