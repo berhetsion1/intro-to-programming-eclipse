@@ -1,0 +1,172 @@
+body {
+    background-color:lightgray;
+    color: black;
+    font-family: "open sans", sans-serif;
+    padding: 20px;
+    margin: 50px;
+    font-size: x-large;
+  }
+  .links {
+    margin-left: 10px;
+    font-size: large;
+  }
+  .links a {
+    text-decoration: none;
+  }
+  .menu-nav {
+    display: flex;
+    list-style-type: none;
+    justify-content: flex-end;
+    padding: 0.5rem;
+  }
+  
+  .menu-nav li:first-child{
+    color:blue;
+  }
+  
+  h2 {
+    color: darkviolet;
+    font-size: 2rem;
+    font-weight: normal;
+  }
+  .myname {
+    display: flex;
+    align-items: center;
+  }
+  .myname h2 {
+    margin-left: 15px;
+  }
+  .mypic {
+    width: 200px;
+    clip-path: circle();
+  }
+  a {
+    color:purple;
+  }
+  h2 {
+    color:green;
+    font-size: 3rem;
+    font-weight: normal;
+  }
+  .Experience {
+    display: flex;
+    flex-direction: column;
+    list-style-type: none;
+    padding-left: 0;
+  }
+  .Experience li {
+    margin: 5px;
+    padding: 5px;
+    background-color:gray;
+    display: flex;
+    justify-content: space-between;
+  }
+  .leave_message {
+    display: grid;
+    grid-template-columns: 1fr;
+    padding: 5px;
+    background-color: cornsilk;
+    width: fit-content;
+  }
+  
+  #skills ul {
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    padding-left: 0;
+    font-size: xx-large;
+    width: fit-content;
+  }
+  #skills li {
+    margin: 5px;
+    padding: 5px;
+    background-color:cornsilk;
+    width: fit-content;
+    font-size: xx-large;
+  
+    
+  }
+  .connect-list li {
+    display: inline;
+  }
+  .label-form {
+    color: black;
+    font-size: x-large;
+  }
+  .field {
+    display: inline-block;
+  }
+  .input-form {
+    color: black;
+    border: black 2px solid;
+    font-size: 1em;
+    padding: 10px;
+  }
+  .btn {
+    background-color: blue;
+    color: white;
+    border: 0;
+    padding: 10px;
+  }
+  .textarea {
+    width: 300px;
+    height: 100px;
+    border-radius: 10px;
+    border: black 3px solid;
+    font-size: 2rem;
+    padding: 1rem;
+  }
+  .Messages li {
+    list-style-type: none;
+    margin: 5px 0;
+  }
+  .removeButton {
+    background-color: red;
+    padding: 5px;
+  }
+  .editButton {
+    background-color: lightgrey;
+    padding: 5px;
+  }
+  .footer {
+    background-color: lightgrey;
+    padding: 5px;
+  }
+  .connect-section {
+    justify-content: flex-end;
+    display: flex;
+    list-style-type: none;
+    position: relative;
+    bottom: -50px;
+  }
+  .connect-list a {
+  padding: 1rem;
+  
+  }
+  
+  /* $desktop: 1200px;
+  $laptop: 1024;
+  $tablet:768;
+  $phone: 480; */
+  /* resize everything based on font-size */
+  @media screen and (min-width: 1200px) {
+    html {
+      font-size: 100%;
+    }
+  }
+  @media screen and (max-width: 1024px) {
+    html {
+      font-size: 90%;
+    }
+  }
+  @media screen and (min-width: 768px) {
+    html {
+      font-size: 70%;
+    }
+  }
+  @media screen and (max-width: 480px) {
+    html {
+      font-size: 60%;
+    }
+  }
+  
